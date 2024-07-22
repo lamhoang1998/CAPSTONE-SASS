@@ -1,0 +1,30 @@
+// đặt tên các file scss khác có dấu _ ở trước để compiler chỉ biên dịch mình file main là style.scss ra css, nếu đặt tên không có dấu _ thì compiler sẽ biên dịch tất cả các file đó
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// gán cho font-size giá trị 62.5% để 1rem = 10px, sẽ dễ tính toán khi style hơn. ta chuyển qua style tất cả bằng đơn vị rem để dễ làm responsive hơn, không phải thay đổi quá nhiều khi làm responsive.
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 144rem;
+	margin: 0 auto;
+}
