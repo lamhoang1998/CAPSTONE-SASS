@@ -4,7 +4,531 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ford</title>
-		<link rel="stylesheet" href="./dist/index.css" />
+		<link rel="stylesheet" href="./dist/style.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
-	<body></body>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__container">
+					<ul class="header__container-navs">
+						<li class="header__container-navs-wrap">
+							<a
+								href="#"
+								class="header__container-navs-wrap-link"
+								data-id="vehicle"
+							>
+								Vehicles
+							</a>
+
+							<div class="header__container-navs-wrap-sublinks" id="vehicle">
+								<div class="sublinks-containers">
+									<ul class="sublinks-links">
+										<li class="sublink">
+											<span class="sublink-name">SUVs & Cars</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Trucks & Vans</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Electric & Hybrid</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Performance Vehicles</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Commercial Vehicles</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Future Vehicles</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+										<li class="sublink">
+											<span class="sublink-name">Technology</span>
+											<span class="sublink-icon">
+												<i class="fa-solid fa-chevron-right"></i>
+											</span>
+										</li>
+									</ul>
+
+									<div class="sublinks-contents">
+										<div class="sublinks-contents-container">
+											<div class="sublinks-contents-head">
+												<img
+													src="./img/Nav-PromoBanner-SUV-Desktop-1.jpg"
+													alt="banner"
+												/>
+												<div class="sublinks-content-head-text">
+													<h3>Our Best Deal. Your Best Summer.</h3>
+													<button>View Offers</button>
+												</div>
+											</div>
+
+											<div class="sublinks-contents-body">
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/mustang.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Mustang
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$30,920
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/escape.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Escape
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$29,495
+														</span>
+														<sup>1</sup>
+													</div>
+													<div class="sublinks-content-body-footer">
+														<span class="sublinks-content-body-footer-icon">
+															<img
+																src="./img/hybrid-available.svg"
+																alt="hybrid available"
+															/>
+														</span>
+														<span class="sublinks-content-body-footer-text">
+															Hybrid Available
+														</span>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/bronco-sport.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Bronco
+														</span>
+														<sup>®</sup>
+														<span class="sublinks-contents-body-head-subname">
+															Sport
+														</span>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$29,795
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/Bronco.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Bronco
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$34,890
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/explorer.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Explorer
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$39,755
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/edge.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Edge
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$>$38,465
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/mustang-mach-e.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Mustang Mach-E
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-footer">
+														<span class="sublinks-content-body-footer-icon">
+															<img src="./img/all-electric.svg" alt="" />
+														</span>
+														<span class="sublinks-content-body-footer-text">
+															All Electric
+														</span>
+													</div>
+												</div>
+
+												<div class="sublinks-contents-body-wrap">
+													<img src="./img/expedition.png" alt="car" />
+													<div class="sublinks-contents-body-head">
+														<span class="sublinks-contents-body-head-name">
+															Expedition
+														</span>
+														<sup>®</sup>
+													</div>
+													<div class="sublinks-content-body-body">
+														<span class="sublinks-content-body-body-right">
+															Starting at
+														</span>
+														<span class="sublinks-content-body-body-left">
+															$55,630
+														</span>
+														<sup>1</sup>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li class="header__container-navs-wrap">
+							<a
+								href="#"
+								class="header__container-navs-wrap-link"
+								data-id="shop"
+							>
+								Shop
+							</a>
+							<div class="header__container-navs-wrap-sublinks" id="shop">
+								<ul class="sublinks">
+									<div class="sublinks__top">
+										<li>Build & Price</li>
+										<li>Search Inventory</li>
+										<li>Locate Dealer</li>
+										<li>Accessories</li>
+										<li>Merchandise</li>
+										<li>Special Offers</li>
+										<li>Certified Used</li>
+										<li>EV Chargers</li>
+										<li>Parts</li>
+									</div>
+
+									<div class="sublinks__bottom">
+										<li>Ford Credit</li>
+										<li>Financing Options</li>
+										<li>Pre-Qualify</li>
+									</div>
+								</ul>
+							</div>
+						</li>
+
+						<li class="header__container-navs-wrap">
+							<a
+								href="#"
+								class="header__container-navs-wrap-link"
+								data-id="service"
+							>
+								Support & Service
+							</a>
+							<div class="header__container-navs-wrap-sublinks" id="service">
+								<ul class="sublinks">
+									<div class="sublinks__top">
+										<li>Support Home</li>
+										<li>FordPass App</li>
+										<li>FordPass Rewards</li>
+										<li>Service & Maintenance</li>
+										<li>SYNC & Technology Support</li>
+										<li>Electric Vehicle Support</li>
+									</div>
+
+									<div class="sublinks__bottom">
+										<li>Recalls & Customer Satisfaction Programs</li>
+										<li>Owner Manuals</li>
+										<li>SYNC & Navigation Updates</li>
+										<li>Pickup & Delivery</li>
+									</div>
+								</ul>
+							</div>
+						</li>
+					</ul>
+
+					<a class="header__container-logo">
+						<span class="header__container-logo-bg"></span>
+					</a>
+
+					<div class="header__container-icon-links">
+						<div class="header__container-icon-links-wrap">
+							<a
+								href="#"
+								class="header__container-icon-links-wrap-icon account"
+								data-id="account"
+							>
+								<span></span>
+							</a>
+
+							<ul class="header__container-icon-links-wrap-sub" id="account">
+								<li>Sign In</li>
+								<li>Check Order Status</li>
+								<li>Pay My Bill</li>
+								<li>Saved Items</li>
+							</ul>
+						</div>
+
+						<div class="header__container-icon-links-wrap">
+							<a
+								href="#"
+								class="header__container-icon-links-wrap-icon global"
+								data-id="global"
+							>
+								<!-- <img src="./img/globe-white.svg" alt="global" /> -->
+								<span></span>
+							</a>
+
+							<ul class="header__container-icon-links-wrap-sub" id="global">
+								<li>English</li>
+								<li>Spanish</li>
+							</ul>
+						</div>
+
+						<div class="header__container-icon-links-wrap">
+							<a href="#" class="header__container-icon-links-wrap-icon search">
+								<!-- <img src="./img/search-white.svg" alt="search" /> -->
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="hero">
+			<div class="hero__bg">
+				<!-- <img src="./img/cq5dam.web.1440.1440.jpeg" alt="background" /> -->
+
+				<div class="hero__contents">
+					<h1>0% APR Financing*</h1>
+					<button>View Offers</button>
+					<p>Offer Details</p>
+				</div>
+			</div>
+		</section>
+		<section class="highway">
+			<div class="highway__bg">
+				<!-- <img
+					src="./img/cq5dam.web.1440.1440 (2).jpeg"
+					alt="highway background"
+				/> -->
+			</div>
+			<div class="container">
+				<div class="highway__contents">
+					<div class="highway__contents-head">
+						<h2>Hands-Free Highway Driving</h2>
+						<p>
+							Experience the magic of hands-free highway driving on 97% of
+							controlled access highways in U.S. and
+							<br />
+							Canada.
+							<sup>127</sup>
+						</p>
+						<button>
+							Explore BlueCruise
+							<img src="./img/caret-right-white.svg" alt="right arrow" />
+						</button>
+					</div>
+					<div class="highway__contents-body">
+						<div class="highway__contents-body-left">
+							<img
+								src="./img/23_FRD_FLI_59893_F_Icon_updated.jfif"
+								alt="highway left"
+							/>
+							<div class="highway__contents-body-left-container">
+								<h3>Ford Connected Services</h3>
+								<p class="highway__contents-body-left-container-details">
+									Available features you can add-on to your Ford vehicle
+									post-purchase to enrich your ownership experience.
+								</p>
+								<p class="highway__contents-body-left-container-subdetails">
+									*Available Ford BlueCruise shown.
+								</p>
+								<button>
+									Explore Connected Services
+									<img src="./img/caret-right-white.svg" alt="right arrow" />
+								</button>
+							</div>
+						</div>
+						<div class="highway__contents-body-right">
+							<img
+								src="./img/23_FRD_XBD_59223_YouMode_PDL.jfif"
+								alt="highway left"
+							/>
+							<div class="highway__contents-body-right-container">
+								<h3>Complimentary Pickup & Delivery</h3>
+								<p>Let your Ford Dealer come to you for routine maintenance.</p>
+								<button>
+									Learn More
+									<img src="./img/caret-right-white.svg" alt="right arrow" />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="disclosure">
+			<div class="container">
+				<div class="disclosure__container">
+					<div class="disclosure__container-head">
+						<span class="disclosure__container-head-title">Disclosures</span>
+						<span>
+							<img src="./img/add-accent (1).svg" alt="" />
+						</span>
+					</div>
+				</div>
+				<div class="disclosure__container disclosure__containersub">
+					<div class="disclosure__container-footer">
+						<label for="footer-search">
+							<input type="text" id="footer-search" placeholder="Search" />
+							<img src="./img/search.svg" alt="search-white" />
+						</label>
+						<ul>
+							<li>Popular</li>
+							<li>Lightning®</li>
+							<li>Bronco®</li>
+							<li>Maverick®</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="subinfo">
+			<div class="container">
+				<div class="subinfo__container subinfo__subcontainer">
+					<div class="subinfo__container-contact">
+						<div class="subinfo__container-contact-left">
+							<span class="subinfo__container-contact-left-icon">
+								<i class="fa-solid fa-envelope-circle-check"></i>
+							</span>
+							<span class="subinfo__container-contact-left-text">
+								Get Updates
+							</span>
+						</div>
+						<div class="subinfo__container-contact-right">
+							<span>Follow Ford</span>
+							<ul>
+								<li><i class="fa-brands fa-square-facebook"></i></li>
+								<li><i class="fa-brands fa-x-twitter"></i></li>
+								<li><i class="fa-brands fa-youtube"></i></li>
+								<li><i class="fa-brands fa-instagram"></i></li>
+								<li><i class="fa-brands fa-threads"></i></li>
+								<li><i class="fa-brands fa-tiktok"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="subinfo__container">
+					<div class="subinfo__container-moreinfo">
+						<div class="subinfo__container-moreinfo-head">
+							<div class="subinfo__container-moreinfo-head-left">
+								<span class="subinfo__container-moreinfo-head-left-icon">
+									<i class="fa-solid fa-earth-americas"></i>
+								</span>
+								<span
+									class="subinfo__container-moreinfo-head-left-changelanguage"
+								>
+									Change Language
+								</span>
+							</div>
+							<span class="subinfo__container-moreinfo-head-ford"></span>
+						</div>
+						<ul>
+							<li>©2024 Ford Motor Company</li>
+							<li>Site Map</li>
+							<li>Site Feedback</li>
+							<li>Glossary</li>
+							<li>Contact Us</li>
+							<li>Accessibility</li>
+							<li>Terms & Conditions</li>
+							<li>Privacy Notice</li>
+							<li>Cookie Settings</li>
+							<li>
+								Your Privacy Choices
+								<span></span>
+							</li>
+							<li>Interest Based Ads</li>
+							<li>Third-Party Trademarks</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="./js/index.js"></script>
+	</body>
 </html>

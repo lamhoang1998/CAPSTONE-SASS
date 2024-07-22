@@ -1,0 +1,3 @@
+// mỗi folder đều có một file index.scss để link các file con lại với nhau. cuối cùng ta sẽ link toàn bộ các folder ở file style.scss
+
+@forward "base";
