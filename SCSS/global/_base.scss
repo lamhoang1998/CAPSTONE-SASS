@@ -28,30 +28,3 @@ a {
 	max-width: 144rem;
 	margin: 0 auto;
 }
-
-// base.scss
-$breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
-
-// Mixin for media queries
-@mixin respond-to($breakpoint) {
-	@if $breakpoint == small {
-		@media (max-width: $breakpoint-sm) {
-			@content;
-		}
-	} @else if $breakpoint == medium {
-		@media (max-width: $breakpoint-md) {
-			@content;
-		}
-	} @else if $breakpoint == large {
-		@media (max-width: $breakpoint-lg) {
-			@content;
-		}
-	} @else if $breakpoint == xlarge {
-		@media (max-width: $breakpoint-xl) {
-			@content;
-		}
-	}
-}
