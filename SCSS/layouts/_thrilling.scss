@@ -1,0 +1,80 @@
+.thrilling {
+	margin-bottom: 5rem;
+}
+
+.thrilling_title {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding: 1.4rem 5.6rem;
+}
+
+.thrilling_title h2 {
+	font-size: 4.2rem;
+}
+
+.thrilling_body {
+	display: flex;
+	overflow: hidden;
+	justify-content: space-between;
+	padding-left: 5.6rem;
+	padding-right: 5.6rem;
+}
+.thrilling_slide {
+	width: 32.5%;
+	position: relative;
+	overflow: hidden;
+}
+.thrilling_slide img {
+	object-fit: contain;
+	width: 100%;
+	border-radius: 3%;
+}
+.thrilling_slide a {
+	position: absolute;
+	left: 2%;
+	bottom: 5%;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: 20;
+	border: none;
+	color: black;
+}
+.thrilling_content {
+	margin-top: 2.4rem;
+	display: flex;
+	// padding-left: 5.6rem;
+	// padding-right: 5.6rem;
+	justify-content: space-around;
+	// gap: 20.5rem;
+	flex-grow: 1;
+}
+
+// .thrilling_content .slide:first-child {
+// 	padding-right: 3.4rem;
+// 	padding-left: 2.6rem;
+// }
+
+// .thrilling_content .slide:nth-child(3) {
+// 	padding-left: 2.5rem;
+// }
+
+.thrilling_content h2 {
+	font-size: 3.8rem;
+}
+
+.thrilling_content p {
+	font-size: 1.6rem;
+}
+
+.thrilling_content .btn-third {
+	background-color: transparent;
+	font-size: 14px;
+	line-height: 1.42857143;
+	font-weight: 800;
+	padding-top: 15px;
+}
+.thrilling_content i {
+	padding-left: 10px;
+	transform: scale(1.2);
+	font-weight: 600;
+}

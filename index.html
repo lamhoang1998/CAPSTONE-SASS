@@ -4,7 +4,6 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ford</title>
-		<link rel="stylesheet" href="./dist/style.css" />
 
 		<link
 			rel="stylesheet"
@@ -13,6 +12,13 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./dist/style.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -369,6 +375,7 @@
 				</div>
 			</div>
 		</header>
+
 		<section class="hero">
 			<div class="hero__bg">
 				<!-- <img src="./img/cq5dam.web.1440.1440.jpeg" alt="background" /> -->
@@ -381,6 +388,577 @@
 			</div>
 		</section>
 
+		<section id="power" class="power">
+			<!-- Tilte -->
+
+			<div class="container">
+				<div class="power_title title">
+					<h2>The Power is Yours</h2>
+					<p>
+						Get pumped up. Get plugged in. Or do a little bit of both. While
+						finding your next Ford vehicle, one
+						<br />
+						thing’s more important than the power you choose: What you choose to
+						do with it.
+					</p>
+				</div>
+
+				<!-- Show dự án -->
+
+				<div class="project__container">
+					<ul
+						class="nav nav-tabs justify-content-center gap-0 border-0"
+						id="myTab"
+						role="tablist"
+					>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link active"
+								id="all-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#all"
+								type="button"
+								role="tab"
+								aria-controls="home"
+								aria-selected="true"
+							>
+								<span>Choose Your Power</span>
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="illu-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#gas"
+								type="button"
+								role="tab"
+								aria-controls="home"
+								aria-selected="true"
+							>
+								Gas + EcoBoost
+								<sup>®</sup>
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="photo-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#hybrid"
+								type="button"
+								role="tab"
+								aria-controls="profile"
+								aria-selected="false"
+							>
+								<span>Hybrid</span>
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="web-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#electric"
+								type="button"
+								role="tab"
+								aria-controls="contact"
+								aria-selected="false"
+							>
+								Electric
+							</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button
+								class="nav-link"
+								id="web-tab"
+								data-bs-toggle="tab"
+								data-bs-target="#diesel"
+								type="button"
+								role="tab"
+								aria-controls="contact"
+								aria-selected="false"
+							>
+								Diesel
+							</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div
+							class="tab-pane fade show active"
+							id="all"
+							role="tabpanel"
+							aria-labelledby="home-tab"
+						>
+							<div class="card col">
+								<div class="card-body">
+									<h3 class="card-title">How Will You Power Up?</h3>
+									<a class="btn btn-primary" href="#">Pick a Powertrain</a>
+									<a class="btn btn-secondary" href="#">Vehicle detail</a>
+								</div>
+								<img src="./img/cq5dam.web.1440.1440 (1).jpeg" alt="..." />
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="gas"
+							role="tabpanel"
+							aria-labelledby="profile-tab"
+						>
+							<div class="card col">
+								<div class="card-body">
+									<h3 class="card-title">Gas Power</h3>
+									<a class="btn btn-primary" href="#">
+										Explore Gas + Ecoboost®
+									</a>
+									<a class="btn btn-secondary" href="#">Vehicle detail</a>
+								</div>
+								<img src="./img/gas.avif" alt="..." />
+							</div>
+						</div>
+						<div
+							class="tab-pane fade"
+							id="hybrid"
+							role="tabpanel"
+							aria-labelledby="profile-tab"
+						>
+							<div class="card col">
+								<div class="card-body">
+									<h3 class="card-title">Hybrid Versatility</h3>
+									<a class="btn btn-primary" href="#">Explore Hybrid Power</a>
+									<a class="btn btn-secondary" href="#">Vehicle detail</a>
+								</div>
+								<img src="./img/hybrid.avif" alt="..." />
+							</div>
+						</div>
+
+						<div
+							class="tab-pane fade"
+							id="electric"
+							role="tabpanel"
+							aria-labelledby="profile-tab"
+						>
+							<div class="card col">
+								<div class="card-body">
+									<h3 class="card-title">All-Electric</h3>
+									<a class="btn btn-primary" href="#">Explore EV Power</a>
+									<a class="btn btn-secondary" href="#">Vehicle detail</a>
+								</div>
+								<img src="./img/eletric.avif" alt="..." />
+							</div>
+						</div>
+
+						<div
+							class="tab-pane fade"
+							id="diesel"
+							role="tabpanel"
+							aria-labelledby="profile-tab"
+						>
+							<div class="card col">
+								<div class="card-body">
+									<h3 class="card-title">Diesel Muscle</h3>
+									<a class="btn btn-primary" href="#">
+										Explore Super Duty
+										<sup>®</sup>
+									</a>
+									<a class="btn btn-secondary" href="#">Vehicle detail</a>
+								</div>
+								<img src="./img/diesel.avif" alt="..." />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="highway">
+			<div class="highway__bg">
+				<!-- <img
+					src="./img/cq5dam.web.1440.1440 (2).jpeg"
+					alt="highway background"
+				/> -->
+			</div>
+			<div class="container">
+				<div class="highway__contents">
+					<div class="highway__contents-head">
+						<h2>Hands-Free Highway Driving</h2>
+						<p>
+							Experience the magic of hands-free highway driving on 97% of
+							controlled access highways in U.S. and
+							<br />
+							Canada.
+							<sup>127</sup>
+						</p>
+						<button>
+							Explore BlueCruise
+							<img src="./img/caret-right-white.svg" alt="right arrow" />
+						</button>
+					</div>
+					<div class="highway__contents-body">
+						<div class="highway__contents-body-left">
+							<img
+								src="./img/23_FRD_FLI_59893_F_Icon_updated.jfif"
+								alt="highway left"
+							/>
+							<div class="highway__contents-body-left-container">
+								<h3>Ford Connected Services</h3>
+								<p class="highway__contents-body-left-container-details">
+									Available features you can add-on to your Ford vehicle
+									post-purchase to enrich your ownership experience.
+								</p>
+								<p class="highway__contents-body-left-container-subdetails">
+									*Available Ford BlueCruise shown.
+								</p>
+								<button>
+									Explore Connected Services
+									<img src="./img/caret-right-white.svg" alt="right arrow" />
+								</button>
+							</div>
+						</div>
+						<div class="highway__contents-body-right">
+							<img
+								src="./img/23_FRD_XBD_59223_YouMode_PDL.jfif"
+								alt="highway left"
+							/>
+							<div class="highway__contents-body-right-container">
+								<h3>Complimentary Pickup & Delivery</h3>
+								<p>Let your Ford Dealer come to you for routine maintenance.</p>
+								<button>
+									Learn More
+									<img src="./img/caret-right-white.svg" alt="right arrow" />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="thrilling" class="thrilling">
+			<div class="container">
+				<div class="thrilling_title title">
+					<h2>Thrilling. Liberating. Hardworking. Iconic.</h2>
+				</div>
+				<div class="thrilling_body">
+					<div class="thrilling_slide">
+						<img src="./img/cq5dam.web.768.768 (1).jpeg" alt="" />
+						<a
+							class="btn btn-secondary"
+							data-bs-toggle="modal"
+							data-bs-target="#vehicleDetailsModal"
+						>
+							Vehicle Details
+						</a>
+					</div>
+					<div class="thrilling_slide">
+						<img src="./img/cq5dam.web.768.768.jpeg" alt="" />
+						<a
+							id="second"
+							class="btn btn-secondary"
+							data-bs-toggle="modal2"
+							data-bs-target="#vehicleDetailsModal2"
+						>
+							Vehicle Details
+						</a>
+					</div>
+					<div class="thrilling_slide">
+						<img src="./img/cq5dam.web.768.768 (2).jpeg" alt="" />
+					</div>
+				</div>
+				<div class="thrilling_content">
+					<div class="slide">
+						<h2>
+							Mustang
+							<sup>®</sup>
+						</h2>
+						<p>
+							Raising heart rates for 60 years. Tailor the
+							<br />
+							perfect Mustang for you, whether it’s a workday
+							<br />
+							or track day.
+						</p>
+						<a class="btn btn-third" href="#">
+							Explore Mustang
+							<i class="fa-solid fa-chevron-right"></i>
+						</a>
+					</div>
+					<div class="slide">
+						<h2>
+							Bronco
+							<sup>®</sup>
+						</h2>
+						<p>
+							The trail awaits. So take off the doors, strap in,
+							<br />
+							and unleash the SUV that’s synonymous with
+							<br />
+							adventure.
+						</p>
+						<a class="btn btn-third" href="#">
+							Explore Bronco
+							<i class="fa-solid fa-chevron-right"></i>
+						</a>
+					</div>
+					<div class="slide">
+						<h2>
+							F-150
+							<sup>®</sup>
+						</h2>
+						<p>
+							If there’s work to be done or weekend fun to be
+							<br />
+							had, just look around. A Ford F-150 truck is
+							<br />
+							probably there.
+						</p>
+						<a class="btn btn-third">
+							Explore F-150
+							<i class="fa-solid fa-chevron-right"></i>
+						</a>
+					</div>
+					<!-- Vehicle Details Modal -->
+					<div
+						class="modal fade"
+						id="vehicleDetailsModal"
+						tabindex="-1"
+						aria-labelledby="vehicleDetailsModalLabel"
+					>
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="modal-body">
+									24MY EcoBoost with optional Bronze Appearance Package in Vapor
+									Blue (extra cost color).
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="modal fade"
+						id="vehicleDetailsModal2"
+						tabindex="-1"
+						aria-labelledby="vehicleDetailsModalLabel"
+					>
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button
+										type="button"
+										class="btn-close"
+										data-bs-dismiss="modal2"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="modal-body">
+									Optional equipment and available Ford accessories shown.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="disclosure">
+			<div class="container">
+				<div class="disclosure__container">
+					<div class="disclosure__container-head">
+						<span class="disclosure__container-head-title">Disclosures</span>
+						<span>
+							<img src="./img/add-accent (1).svg" alt="" />
+						</span>
+					</div>
+				</div>
+				<div class="disclosure__container disclosure__containersub">
+					<div class="disclosure__container-footer">
+						<label for="footer-search">
+							<input type="text" id="footer-search" placeholder="Search" />
+							<img src="./img/search.svg" alt="search-white" />
+						</label>
+						<ul>
+							<li>Popular</li>
+							<li>Lightning®</li>
+							<li>Bronco®</li>
+							<li>Maverick®</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<nav class="navigation-menu">
+			<div class="nav-section">
+				<h3>All Vehicles</h3>
+				<ul>
+					<li><a href="#">SUVs & Crossovers</a></li>
+					<li><a href="#">Trucks & Vans</a></li>
+					<li><a href="#">Cars</a></li>
+					<li><a href="#">Electrified</a></li>
+					<li><a href="#">Commercial Vehicles</a></li>
+					<li><a href="#">Future Vehicles</a></li>
+					<li><a href="#">Certified Used</a></li>
+					<li><a href="#">All Vehicles</a></li>
+					<li><a href="#">Performance Vehicles</a></li>
+				</ul>
+			</div>
+			<div class="nav-section">
+				<h3>Shop</h3>
+				<ul>
+					<li><a href="#">Build & Price</a></li>
+					<li><a href="#">Search Inventory</a></li>
+					<li><a href="#">Get a Quote</a></li>
+					<li><a href="#">Current Offers</a></li>
+					<li><a href="#">Trade-In Value</a></li>
+					<li><a href="#">Towing Guides</a></li>
+					<li><a href="#">Compare Vehicles</a></li>
+					<li><a href="#">Get Updates</a></li>
+					<li><a href="#">Certified Used Inventory</a></li>
+					<li><a href="#">First Responder</a></li>
+					<li><a href="#">Accessories Store</a></li>
+					<li><a href="#">Ford Merchandise</a></li>
+					<li><a href="#">Accessibility Program</a></li>
+				</ul>
+			</div>
+			<div class="nav-section">
+				<h3>Finance</h3>
+				<ul>
+					<li><a href="#">Ford Credit Home</a></li>
+					<li><a href="#">Why Ford Credit</a></li>
+					<li><a href="#">Finance Options</a></li>
+					<li><a href="#">Payment Calculator</a></li>
+					<li><a href="#">Credit Education</a></li>
+					<li><a href="#">Customer Support</a></li>
+					<li><a href="#">Qualify for Financing</a></li>
+					<li><a href="#">Ford Credit Account</a></li>
+					<li><a href="#">Ford Insure</a></li>
+					<li><a href="#">Ford Interest Advantage</a></li>
+					<li><a href="#">Investor Center</a></li>
+				</ul>
+			</div>
+			<div class="nav-section">
+				<h3>Support</h3>
+				<ul>
+					<li><a href="#">Support Home</a></li>
+					<li><a href="#">Maintenance Schedule</a></li>
+					<li><a href="#">Coupons & Offers</a></li>
+					<li><a href="#">Redeem Rebates</a></li>
+					<li><a href="#">SYNC & Technology</a></li>
+					<li><a href="#">Warranty & Owner Manuals</a></li>
+					<li><a href="#">Locate a Dealer</a></li>
+					<li><a href="#">Ford Parts</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Roadside Assistance</a></li>
+					<li><a href="#">Ford Protect</a></li>
+					<li><a href="#">Recalls</a></li>
+					<li><a href="#">Takata Airbag Recalls</a></li>
+					<li><a href="#">Tire Finder</a></li>
+					<li><a href="#">How-To Videos</a></li>
+					<li><a href="#">Collision Assistance</a></li>
+				</ul>
+			</div>
+			<div class="nav-section">
+				<h3>Experience Ford</h3>
+				<ul>
+					<li><a href="#">Corporate</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Investors</a></li>
+					<li><a href="#">Company News</a></li>
+					<li><a href="#">About Ford</a></li>
+					<li><a href="#">Ford Pro</a></li>
+					<li><a href="#">Racing</a></li>
+					<li><a href="#">Warriors in Pink</a></li>
+					<li><a href="#">Ford Philanthropy</a></li>
+					<li><a href="#">SYNC</a></li>
+					<li><a href="#">Connected Navigation</a></li>
+					<li><a href="#">FordPass</a></li>
+					<li><a href="#">Ford Co-Pilot360 Technology</a></li>
+					<li><a href="#">Owner Benefits</a></li>
+					<li><a href="#">Going Electric</a></li>
+					<li><a href="#">Ford Heritage Vault</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section class="subinfo">
+			<div class="container">
+				<div class="subinfo__container subinfo__subcontainer">
+					<div class="subinfo__container-contact">
+						<div class="subinfo__container-contact-left">
+							<span class="subinfo__container-contact-left-icon">
+								<i class="fa-solid fa-envelope-circle-check"></i>
+							</span>
+							<span class="subinfo__container-contact-left-text">
+								Get Updates
+							</span>
+						</div>
+						<div class="subinfo__container-contact-right">
+							<span>Follow Ford</span>
+							<ul>
+								<li><i class="fa-brands fa-square-facebook"></i></li>
+								<li><i class="fa-brands fa-x-twitter"></i></li>
+								<li><i class="fa-brands fa-youtube"></i></li>
+								<li><i class="fa-brands fa-instagram"></i></li>
+								<li><i class="fa-brands fa-threads"></i></li>
+								<li><i class="fa-brands fa-tiktok"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="subinfo__container">
+					<div class="subinfo__container-moreinfo">
+						<div class="subinfo__container-moreinfo-head">
+							<div class="subinfo__container-moreinfo-head-left">
+								<span class="subinfo__container-moreinfo-head-left-icon">
+									<i class="fa-solid fa-earth-americas"></i>
+								</span>
+								<span
+									class="subinfo__container-moreinfo-head-left-changelanguage"
+								>
+									Change Language
+								</span>
+							</div>
+							<span class="subinfo__container-moreinfo-head-ford"></span>
+						</div>
+						<ul>
+							<li>©2024 Ford Motor Company</li>
+							<li>Site Map</li>
+							<li>Site Feedback</li>
+							<li>Glossary</li>
+							<li>Contact Us</li>
+							<li>Accessibility</li>
+							<li>Terms & Conditions</li>
+							<li>Privacy Notice</li>
+							<li>Cookie Settings</li>
+							<li>
+								Your Privacy Choices
+								<span></span>
+							</li>
+							<li>Interest Based Ads</li>
+							<li>Third-Party Trademarks</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js"
+			integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
 		<script src="./js/index.js"></script>
 	</body>
 </html>
